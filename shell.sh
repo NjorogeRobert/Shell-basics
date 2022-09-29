@@ -1,4 +1,7 @@
 #!/bin/bash
+#Author Robert Njoroge Maina
+#Finds a file named "names"
+#sorts the file with only names but gives clearance to all info if password is correct
 pope=$(ls | wc -l)
 date=$(date)
 echo Sir/Madam by $date we have created $pope files
