@@ -1,0 +1,9 @@
+#!/bin/bash
+git clone $()
+name=$(cd "your repository")
+create readme.md file
+git config --global user.email "your email"
+git config --global user.name "your name"
+git add .
+git commit -m 'name of commit'
+git push
